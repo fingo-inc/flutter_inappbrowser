@@ -9,7 +9,7 @@ public class InAppWebViewOptions extends Options {
   public boolean useShouldOverrideUrlLoading = false;
   public boolean useOnLoadResource = false;
   public boolean clearCache = false;
-  public String userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36";
+  public String userAgent = "";
   public boolean javaScriptEnabled = true;
   public boolean javaScriptCanOpenWindowsAutomatically = false;
   public boolean mediaPlaybackRequiresUserGesture = true;

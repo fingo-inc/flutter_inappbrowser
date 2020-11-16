@@ -171,7 +171,7 @@ public class InAppWebView extends WebView {
     settings.setDatabaseEnabled(options.databaseEnabled);
     settings.setDomStorageEnabled(options.domStorageEnabled);
 
-    if (!options.userAgent.isEmpty())
+    if (options.userAgent != null && !options.userAgent.isEmpty())
       settings.setUserAgentString(options.userAgent);
 
     if (options.clearCache)
