@@ -169,7 +169,7 @@ public class InAppWebView extends WebView {
     settings.setMediaPlaybackRequiresUserGesture(options.mediaPlaybackRequiresUserGesture);
 
     settings.setDatabaseEnabled(options.databaseEnabled);
-    settings.setDomStorageEnabled(options.domStorageEnabled);
+    settings.setDomStorageEnabled(options.domStorageEnabled); 
 
     if (!options.userAgent.isEmpty())
       settings.setUserAgentString(options.userAgent);
